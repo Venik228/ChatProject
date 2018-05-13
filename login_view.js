@@ -1,10 +1,12 @@
 $(function() {
  
     Parse.$ = jQuery;
-    Parse.serverURL="https://pg-app-aqvui3yjmq9krculrebyyy23uxa0dh.scalabl.cloud/1/";
+    Parse.$ = jQuery;
+    Parse.serverURL = 'https://pg-app-j4xv4kxsdxtd7yjvhgq4wbcdfkdv9t.scalabl.cloud/1/';
     //ApplicationID, JavaScriptKey 
-    Parse.initialize("7atUTo26qRIaISWGbXlcF3LojhsHcbm5PQhVkON5", "t30lyjf1h0KDi1DLah1tLyd1O5HhzQjms5sPmnPN");
- 
+    Parse.initialize("eLiXKbRaZcldXXOBjtdZh8VuBoPVj3Qg8P69k3cW", "1fe5dhk4T0YgKBCEHe9tN5MhkjQ33cgPHXoW8Pkf");
+
+    
     var LoginView = Parse.View.extend({
         template:Handlebars.compile($('#login-tpl').html()),
         events: {
